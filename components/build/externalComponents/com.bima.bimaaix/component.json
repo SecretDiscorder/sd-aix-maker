@@ -1,0 +1,2678 @@
+{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2023-12-28T14:45:01+0000",
+ "nonVisible": "true",
+ "iconName": "https://i.ibb.co/wJr2ymf/BimaAix.jpg",
+ "methods": [
+  {
+   "deprecated": "false",
+   "name": "Add",
+   "description": "Tambahkan dua angka",
+   "params": [{
+    "name": "operand",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "AllowGeolocationAccess",
+   "description": "Method for AllowGeolocationAccess",
+   "params": [
+    {
+     "name": "allow",
+     "type": "boolean"
+    },
+    {
+     "name": "remember",
+     "type": "boolean"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "AvailableSize",
+   "description": "Return available size of given storage directory in Bytes. To get the value in KB, divide by 1024. To get the value in MB, divide by another 1024. To get the value in GB, divide by another 1024.",
+   "params": [{
+    "name": "storageDirectory",
+    "type": "text"
+   }],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "AvailableStorageDirectories",
+   "description": "Return a list of available storage directories.",
+   "params": [],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "BinaryOperation",
+   "description": "Operasi biner (Contoh: 110 + 101)",
+   "params": [{
+    "name": "binaryExpression",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "CanGoBack",
+   "description": "Gets whether this WebView has a back history item",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "CanGoBackOrForward",
+   "description": "Gets whether the page can go back or forward the given number of steps.",
+   "params": [{
+    "name": "steps",
+    "type": "number"
+   }],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "CanGoForward",
+   "description": "Gets whether this WebView has a forward history item.",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "Cancel",
+   "description": "Cancels the current download request",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "CancelPrinting",
+   "description": "Cancels current print job. You can request cancellation of a queued, started, blocked, or failed print job.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "CheckDrawOverlayPermission",
+   "description": "Checks whether the overlay permission is active.",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "CheckMyAppSignature",
+   "description": "Check if the app's signature matches the expected signature.",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "ClearCache",
+   "description": "Clears the resource cache.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ClearCalculator",
+   "description": "Clear the calculator values",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ClearCookies",
+   "description": "Removes all cookies and raises 'CookiesRemoved' event",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ClearFormData",
+   "description": "Clears the form data of the webview <br> Added by Xoma",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "ClearInternalHistory",
+   "description": "Tells this WebView to clear its internal back/forward list.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ClearLocation",
+   "description": "Clear all location preferences.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ClearMatches",
+   "description": "Clears the highlighting surrounding text matches.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "CloseAppOnRecentPressed",
+   "description": "Method for CloseAppOnRecentPressed",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ConfirmJs",
+   "description": "Whether to proceed JavaScript originated request",
+   "params": [{
+    "name": "confirm",
+    "type": "boolean"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "ContentHeight",
+   "description": "Gets height of HTML content",
+   "params": [],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "ContinueJs",
+   "description": "Inputs a confirmation response to Js",
+   "params": [{
+    "name": "input",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Copy",
+   "description": "Copy text to clipboard. In case SuppressToast is true, the toast message 'Text copied' will be suppressed after copying a text to the clipboard.",
+   "params": [{
+    "name": "text",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "CopyAsync",
+   "description": "Copy file (async). Use this method to copy large files. The copy process is finished after the Copied event fires.Prefix the filename with / (i.e. relative path) to copy a file on the SD card. For instance /myFile.txt will copy the file /mnt/sdcard/myFile.txt. To copy assets packaged with an application (also works for the Companion) start the fromFilename with // (two slashes). However you can't copy files to the assets. If a fileName starts with file:/// you can specify a complete path to the file.",
+   "params": [
+    {
+     "name": "fromFileName",
+     "type": "text"
+    },
+    {
+     "name": "toFileName",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "Create",
+   "description": "Set quality as int from 1-5. Set very small text size to view the full ascii image.",
+   "params": [
+    {
+     "name": "path",
+     "type": "text"
+    },
+    {
+     "name": "quality",
+     "type": "number"
+    },
+    {
+     "name": "isColor",
+     "type": "boolean"
+    },
+    {
+     "name": "textView",
+     "type": "component"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "CreateAppSpecificDirectory",
+   "description": "Creates an AppSpecificDirectory - ASD",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "CreateShortcut",
+   "description": "Creates a shortcut of given website on home screen",
+   "params": [
+    {
+     "name": "url",
+     "type": "text"
+    },
+    {
+     "name": "iconPath",
+     "type": "text"
+    },
+    {
+     "name": "title",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "CreateWebView",
+   "description": "Creates the webview in given arrangement with id",
+   "params": [
+    {
+     "name": "container",
+     "type": "component"
+    },
+    {
+     "name": "id",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "CurrentId",
+   "description": "Returns current id",
+   "params": [],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "DecryptText",
+   "description": "Method for DecryptText",
+   "params": [{
+    "name": "str",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "DecryptionError",
+   "description": "Method for DecryptionError",
+   "params": [{
+    "name": "str",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "DecryptionSuccess",
+   "description": "Method for DecryptionSuccess",
+   "params": [{
+    "name": "str",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Delete",
+   "description": "Delete file. Prefix the filename with / (i.e. relative path) to delete a file on the SD card. For instance /myFile.txt will delete the file /mnt/sdcard/myFile.txt. You can't delete files stored in the assets! If a fileName starts with file:/// you can specify a complete path to the file.",
+   "params": [{
+    "name": "fileName",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "DirectoryList",
+   "description": "Return a list of subdirectories of a given directory. The complete path to these subdirectories is provided. If a directory starts with file:/// you can specify a complete path to the directory. The result list does NOT include subdirectories of subdirectories.",
+   "params": [{
+    "name": "directoryName",
+    "type": "text"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "DisableSystemKeyboard",
+   "description": "Disables the system keyboard for the specified textbox, disallows the keyboard to show up when the textbox it clicked.",
+   "params": [{
+    "name": "textBoxBase",
+    "type": "component"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "DismissJsAlert",
+   "description": "Dismiss previously requested Js alert",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "DismissViewFloating",
+   "description": "Hides the floating component.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "Divide",
+   "description": "Bagikan dua angka",
+   "params": [{
+    "name": "operand",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Download",
+   "description": "Downloads the given file",
+   "params": [
+    {
+     "name": "url",
+     "type": "text"
+    },
+    {
+     "name": "mimeType",
+     "type": "text"
+    },
+    {
+     "name": "fileName",
+     "type": "text"
+    },
+    {
+     "name": "downloadDir",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "EnableSystemKeyboard",
+   "description": "Re-enables the system keyboard for the specified textbox, allows the keyboard to show up again when the textbox it clicked.",
+   "params": [{
+    "name": "textBoxBase",
+    "type": "component"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "EncryptText",
+   "description": "Encrypt a text using AES algorithm.",
+   "params": [{
+    "name": "str",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "EncryptionError",
+   "description": "Method for EncryptionError",
+   "params": [{
+    "name": "str",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "EncryptionKey",
+   "description": "Method for EncryptionKey",
+   "params": [{
+    "name": "str",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "EncryptionSuccess",
+   "description": "Method for EncryptionSuccess",
+   "params": [{
+    "name": "str",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "EvaluateJavaScript",
+   "description": "Asynchronously evaluates JavaScript in the context of the currently displayed page.",
+   "params": [{
+    "name": "script",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Exists",
+   "description": "Checks whether a file or directory exists.Prefix the filename with / (i.e. relative path) to look for the file  on the SD card. For instance /myFile.txt will look for the file /mnt/sdcard/myFile.txt. To read assets packaged with an application (also works for the Companion) start the filename with // (two slashes). If a fileOrDirectoryName starts with file:/// you can specify a complete path to the file of directory.",
+   "params": [{
+    "name": "fileOrDirectoryName",
+    "type": "text"
+   }],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "Factorial",
+   "description": "Faktorial dari angka",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "FileList",
+   "description": "Return a list of filenames of a given directory. Use this method for specific directories to get back a result immediately. To get a list for a complete device or sdcard, which may take a few seconds, use the FileListAsync method instead. The complete path to these files is provided. You can filter by extension. To get a list of all files, use * as extension.If a directory starts with file:/// you can specify a complete path to the directory. To include files of all subdirectories, set includeSubdirectories to true, else to false.",
+   "params": [
+    {
+     "name": "directoryName",
+     "type": "text"
+    },
+    {
+     "name": "extension",
+     "type": "text"
+    },
+    {
+     "name": "includeSubdirectories",
+     "type": "boolean"
+    }
+   ],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "FileListAsync",
+   "description": "Create a list of filenames of a given directory.",
+   "params": [
+    {
+     "name": "directoryName",
+     "type": "text"
+    },
+    {
+     "name": "extension",
+     "type": "text"
+    },
+    {
+     "name": "includeSubdirectories",
+     "type": "boolean"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "FileListFromAssets",
+   "description": "Return a list of filenames from the assets (also works for the Companion). Note: during development, you will get all files stored in directory /AppInventor/assets.",
+   "params": [],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "Find",
+   "description": "Finds all instances of find on the page and highlights them, asynchronously. Successive calls to this will cancel any pending searches.",
+   "params": [{
+    "name": "string",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "FindNext",
+   "description": "Highlights and scrolls to the next match if 'forward' is true else scrolls to previous match.",
+   "params": [{
+    "name": "forward",
+    "type": "boolean"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "FreeMemorySize",
+   "description": "Get free Memory Size in bytes of the external storage. Note: this does not have to be SD card, it can also be mount of internal memory.To get the size in KB: divide by 1024, to get the size im MB: divide again by 1024.",
+   "params": [],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetAPKSignature",
+   "description": "Get the signature of the APK.",
+   "params": [],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetCookies",
+   "description": "Get cookies for specific url",
+   "params": [{
+    "name": "url",
+    "type": "text"
+   }],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetDecimalResult",
+   "description": "Get the result of decimal calculation",
+   "params": [],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetFileName",
+   "description": "Get path and filename from media content uri",
+   "params": [{
+    "name": "contentUri",
+    "type": "text"
+   }],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetFileSize",
+   "description": "Tries to get file size",
+   "params": [{
+    "name": "url",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "GetIds",
+   "description": "Returns a list of used ids",
+   "params": [],
+   "returnType": "list"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetIntegerResult",
+   "description": "Get the result of integer calculation",
+   "params": [],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetInternalHistory",
+   "description": "Get internal history of given webview.",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }],
+   "returnType": "list"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetMimeType",
+   "description": "Method for GetMimeType",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetPositionX",
+   "description": "Gets the X coordinate that the floating view is in.",
+   "params": [],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetPositionY",
+   "description": "Gets the Y coordinate that the floating view is in.",
+   "params": [],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetProgress",
+   "description": "Gets the progress for the given webview",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetScrollX",
+   "description": "Return the scrolled left position of the webview",
+   "params": [],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetScrollY",
+   "description": "Return the scrolled top position of the webview",
+   "params": [],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetSslCertificate",
+   "description": "Gets the SSL certificate for the main top-level page and raises 'GotCertificate' event",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "GetStartUrl",
+   "description": "Returns the url which started the current activity",
+   "params": [],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetUri",
+   "description": "Get content uri from filename",
+   "params": [{
+    "name": "filename",
+    "type": "text"
+   }],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetUriString",
+   "description": "Method for GetUriString",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetWebView",
+   "description": "Returns webview object from id",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetWindowBrightness",
+   "description": "Method for GetWindowBrightness",
+   "params": [],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "GoBack",
+   "description": "Goes back in the history of this WebView.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "GoBackOrForward",
+   "description": "Goes to the history item that is the number of steps away from the current item. Steps is negative if backward and positive if forward.",
+   "params": [{
+    "name": "steps",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "GoForward",
+   "description": "Goes forward in the history of this WebView.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "GoToUrl",
+   "description": "Loads the given URL.",
+   "params": [{
+    "name": "url",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "GrantPermission",
+   "description": "Grants given permissions to webview.Use empty list to deny the request.",
+   "params": [{
+    "name": "permissions",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "GuessFileName",
+   "description": "Returns guessed file name",
+   "params": [
+    {
+     "name": "url",
+     "type": "text"
+    },
+    {
+     "name": "mimeType",
+     "type": "text"
+    },
+    {
+     "name": "contentDisposition",
+     "type": "text"
+    }
+   ],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "HideCustomView",
+   "description": "Hides previously shown custom view",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "HideNavigationBarHP",
+   "description": "Hide the navigation bar (including recent apps, home, and back buttons).",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "HideStatusBarHP",
+   "description": "Hide the status bar at the top of the screen.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "InvokeZoomPicker",
+   "description": "Invokes the graphical zoom picker widget for this WebView. This will result in the zoom widget appearing on the screen to control the zoom level of this WebView.Note that it does not checks whether zoom is enabled or not.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "IsAppInstalledAndEnabledPM",
+   "description": "Returns true if an app package is installed and enabled.",
+   "params": [{
+    "name": "packageName",
+    "type": "text"
+   }],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "IsAppInstalledPM",
+   "description": "Check if an app is installed based on its package name.",
+   "params": [{
+    "name": "packageName",
+    "type": "text"
+   }],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "IsConnectedNetwork",
+   "description": "Method for IsConnectedNetwork",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "IsDeveloperModeEnabled",
+   "description": "Check if developer mode is enabled.",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "IsDirectory",
+   "description": "Checks whether it is a file or directory.Prefix the filename with / (i.e. relative path) to look for the file  on the SD card. For instance /myFile.txt will look for the file /mnt/sdcard/myFile.txt. If fileOrDirectoryName starts with file:/// you can specify a complete path to the file or directory.",
+   "params": [{
+    "name": "fileOrDirectoryName",
+    "type": "text"
+   }],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "IsEmulator",
+   "description": "Method for IsEmulator",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "IsPackageInstalledPM",
+   "description": "Returns true if a package (app) is installed and enabled.",
+   "params": [{
+    "name": "packageName",
+    "type": "text"
+   }],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "IsRooted",
+   "description": "Method for IsRooted",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "Length",
+   "description": "Return file length of a file. Prefix the filename with / (i.e. relative path) to look for the file on the SD card. For instance /myFile.txt will look for the file /mnt/sdcard/myFile.txt. To read assets packaged with an application (also works for the Companion) start the filename with // (two slashes). If a fileName starts with file:/// you can specify a complete path to the file.",
+   "params": [{
+    "name": "fileName",
+    "type": "text"
+   }],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "LoadHtml",
+   "description": "Loads the given data into this WebView using a 'data' scheme URL.",
+   "params": [{
+    "name": "html",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "LoadInNewWindow",
+   "description": "Loads requested url in given webview",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "LoadWithHeaders",
+   "description": "Loads the given URL with the specified additional HTTP headers defined is list of lists.",
+   "params": [
+    {
+     "name": "url",
+     "type": "text"
+    },
+    {
+     "name": "headers",
+     "type": "dictionary"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "LoseFocusFloatingView",
+   "description": "Loses focus on the floating window.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "Mode",
+   "description": "Method for Mode",
+   "params": [],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "Move",
+   "description": "Move file. Use this method to move small files, for large files use the MoveAsync method instead.Prefix the filename with / (i.e. relative path) to move a file on the SD card. For instance /myFile.txt will move the file /mnt/sdcard/myFile.txt. You can't move files from or to the assets If a fileName starts with file:/// you can specify a complete path to the file.",
+   "params": [
+    {
+     "name": "fromFileName",
+     "type": "text"
+    },
+    {
+     "name": "toFileName",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "MoveAsync",
+   "description": "Move file. Use this method to move large files. The move process is finished after the Moved event fires.Prefix the filename with / (i.e. relative path) to move a file on the SD card. For instance /myFile.txt will move the file /mnt/sdcard/myFile.txt. You can't move files from or to the assets If a fileName starts with file:/// you can specify a complete path to the file.",
+   "params": [
+    {
+     "name": "fromFileName",
+     "type": "text"
+    },
+    {
+     "name": "toFileName",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "Multiply",
+   "description": "Kalikan dua angka",
+   "params": [{
+    "name": "operand",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Off",
+   "description": "turn off the flashlight.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "On",
+   "description": "turn on the flashlight.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "OpenFile",
+   "description": "Tries to open the last downloaded file",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "OverlapView",
+   "description": "Through this block it is possible to overlap any visible component on another.\nmargins (list):\n\tindex 1 -> margin left (number)\n\tindex 2 -> margin top (number)\n\tindex 3 -> margin right(number)\n\tindex 4 -> margin bottom (number)\ngravity (number):\n\t0  -> TOP-LEFT\n\t1  -> TOP-CENTER\n\t2  -> TOP-RIGHT\n\t3  -> CENTER-LEFT\n\t4  -> CENTER\n\t5  -> CENTER-RIGHT\n\t6  -> BOTTOM-LEFT\n\t7  -> BOTTOM-CENTER\n\t8  -> BOTTOM-RIGHT",
+   "params": [
+    {
+     "name": "mainComponent",
+     "type": "component"
+    },
+    {
+     "name": "childComponent",
+     "type": "component"
+    },
+    {
+     "name": "margins",
+     "type": "list"
+    },
+    {
+     "name": "gravity",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "PageDown",
+   "description": "Scrolls the contents of the WebView down by half the page size",
+   "params": [{
+    "name": "bottom",
+    "type": "boolean"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "PageUp",
+   "description": "Scrolls the contents of the WebView up by half the page size",
+   "params": [{
+    "name": "top",
+    "type": "boolean"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Paste",
+   "description": "Paste text from clipboard. In case SuppressToast is true, the toast message 'Text pasted' will be suppressed after pasting a text from the clipboard.",
+   "params": [],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "PauseWebView",
+   "description": "Does a best-effort attempt to pause any processing that can be paused safely, such as animations and geolocation. Note that this call does not pause JavaScript.",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "PlayAudioPath",
+   "description": "Play audio from a specified path.",
+   "params": [{
+    "name": "audioPath",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "PostData",
+   "description": "Loads the URL with postData using 'POST' method into active WebView.",
+   "params": [
+    {
+     "name": "url",
+     "type": "text"
+    },
+    {
+     "name": "data",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "Power",
+   "description": "Pangkat dua angka",
+   "params": [{
+    "name": "exponent",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "PrintWebContent",
+   "description": "Prints the content of webview with given document name",
+   "params": [{
+    "name": "documentName",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "ProceedHttpAuthRequest",
+   "description": "Instructs the WebView to proceed with the authentication with the given credentials.If both parameters are empty then it will cancel the request.",
+   "params": [
+    {
+     "name": "username",
+     "type": "text"
+    },
+    {
+     "name": "password",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "ProceedSslError",
+   "description": "Method for ProceedSslError",
+   "params": [{
+    "name": "proceed",
+    "type": "boolean"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "RegisterDeepLink",
+   "description": "Registers to open specified link in associated external app(s)",
+   "params": [{
+    "name": "scheme",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Reload",
+   "description": "Reloads the current URL.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "RemoveWebView",
+   "description": "Destroys the webview and removes it completely from view system",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "RequestDrawOverlayPermission",
+   "description": "Redirects to application settings to allow overlay permission.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "RequestFocusFloatingView",
+   "description": "Prompts to focus on the floating window.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "RestartPrinting",
+   "description": "Restarts current/previous print job. You can request restart of a failed print job.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "RestoreFloatingView",
+   "description": "Returns the floating window to the screen.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ResubmitForm",
+   "description": "Whether to resubmit form or not.",
+   "params": [{
+    "name": "reSubmit",
+    "type": "boolean"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "ResumeWebView",
+   "description": "Resumes the previously paused WebView.",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "RingtoneGet",
+   "description": "Get current ringtone. Type can be RINGTONE, NOTIFICATION or ALARM.",
+   "params": [{
+    "name": "type",
+    "type": "text"
+   }],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "RingtonePlay",
+   "description": "Play ringtone. Type can be RINGTONE, NOTIFICATION or ALARM.",
+   "params": [{
+    "name": "type",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "RingtoneStop",
+   "description": "Stop currently playing ringtone.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "RunApp",
+   "description": "Run an app based on its package name.",
+   "params": [{
+    "name": "packageName",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "SaveArchive",
+   "description": "Saves the current site as a web archive",
+   "params": [{
+    "name": "dir",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "ScrollTo",
+   "description": "Scrolls the webview to given position",
+   "params": [
+    {
+     "name": "x",
+     "type": "number"
+    },
+    {
+     "name": "y",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "SetCookies",
+   "description": "Sets cookies for given url",
+   "params": [
+    {
+     "name": "url",
+     "type": "text"
+    },
+    {
+     "name": "cookieString",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "SetExpectedSignature",
+   "description": "Set the expected app signature.",
+   "params": [{
+    "name": "signature",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "SetPosition",
+   "description": "Moves the floating view to the indicated coordinates.",
+   "params": [
+    {
+     "name": "x",
+     "type": "number"
+    },
+    {
+     "name": "y",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "SetVisibility",
+   "description": "Sets the visibility of webview by id",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "visibility",
+     "type": "boolean"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "SetWebView",
+   "description": "Set specific webview to current webview by id",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "SetWindowBrightness",
+   "description": "Method for SetWindowBrightness",
+   "params": [{
+    "name": "f",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "SetupView",
+   "description": "Initializes the component you want to float.",
+   "params": [
+    {
+     "name": "viewComponent",
+     "type": "component"
+    },
+    {
+     "name": "clickable",
+     "type": "boolean"
+    },
+    {
+     "name": "positionX",
+     "type": "number"
+    },
+    {
+     "name": "positionY",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "ShowAlert",
+   "description": "Show a original toast of android",
+   "params": [
+    {
+     "name": "notice",
+     "type": "text"
+    },
+    {
+     "name": "longNotification",
+     "type": "boolean"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "ShowAlertAtCenter",
+   "description": "Show a original toast of android at the center of the screen",
+   "params": [
+    {
+     "name": "notice",
+     "type": "text"
+    },
+    {
+     "name": "longNotification",
+     "type": "boolean"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "ShowFloatingView",
+   "description": "Displays the floating component.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "SquareRoot",
+   "description": "Akar kuadrat dari angka",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "StartLockTask",
+   "description": "Method for StartLockTask",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "StopLoading",
+   "description": "Stops the current load.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "StopLockTask",
+   "description": "Method for StopLockTask",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "Subtract",
+   "description": "Kurangkan dua angka",
+   "params": [{
+    "name": "operand",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "ToRoman",
+   "description": "Konversi angka ke bilangan Romawi",
+   "params": [{
+    "name": "number",
+    "type": "number"
+   }],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "UploadFile",
+   "description": "Uploads the given file from content uri.Use empty string to cancel the upload request.",
+   "params": [{
+    "name": "contentUri",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "ZoomBy",
+   "description": "Performs a zoom operation in the WebView by given zoom percent",
+   "params": [{
+    "name": "zoomP",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "ZoomIn",
+   "description": "Performs zoom in in the WebView",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ZoomOut",
+   "description": "Performs zoom out in the WebView",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "addAppToRecent",
+   "description": "Method for addAppToRecent",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "checkPackageMod",
+   "description": "Check if the app's package name matches the expected package name.",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "isCloneMod",
+   "description": "Check if the app is a clone (package name does not match the expected package name).",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "isKioskModeActive",
+   "description": "Method for isKioskModeActive",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "onBackPressed",
+   "description": "Method for onBackPressed",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "onWindowFocusChanged",
+   "description": "Method for onWindowFocusChanged",
+   "params": [{
+    "name": "z",
+    "type": "boolean"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "removeAppFromRecent",
+   "description": "Method for removeAppFromRecent",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "setExpectedPackageName",
+   "description": "Set the expected app package name.",
+   "params": [{
+    "name": "packageName",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "setHideFromRecent",
+   "description": "Method for setHideFromRecent",
+   "params": [{
+    "name": "hide",
+    "type": "boolean"
+   }]
+  }
+ ],
+ "blockProperties": [
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "AdHosts",
+   "description": "Property for AdHosts",
+   "type": "text",
+   "category": "Behavior"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "AllowScreenshotsUser",
+   "description": "Property for AllowScreenshotsUser",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "AudioPathSource",
+   "description": "Source of the audio path.",
+   "type": "text",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "AutoLoadImages",
+   "description": "Returnss whether the WebView should load image resources",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "AutoplayMedia",
+   "description": "Returns whether the WebView requires a user gesture to play media",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "BackgroundColor",
+   "description": "Sets background color of webview",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "BlockAds",
+   "description": "Property for BlockAds",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "BlockNetworkLoads",
+   "description": "Sets whether the WebView should not load resources from the network.Use this to save data.",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Brightness",
+   "description": "brightness (a value between 0 and 255)",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "BrightnessMode",
+   "description": "brightness mode (MANUAL or AUTO)",
+   "type": "text",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "CacheMode",
+   "description": "Sets cache mode for active webview",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "CurrentPageTitle",
+   "description": "Title of the page currently viewed",
+   "type": "text",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "CurrentUrl",
+   "description": "URL of the page currently viewed",
+   "type": "text",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "DeepLinks",
+   "description": "Property for DeepLinks",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "DesktopMode",
+   "description": "Returns whether to load content in desktop mode",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "DisplayZoom",
+   "description": "Gets whether the WebView should display on-screen zoom controls",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "EnableJS",
+   "description": "Tells the WebView to enable JavaScript execution.",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "FileAccess",
+   "description": "Sets whether webview can access local files.Use this to enable file uploading and loading files using HTML",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "FollowLinks",
+   "description": "Determines whether to follow links when they are tapped in the WebViewer.If you follow links, you can use GoBack and GoForward to navigate the browser history",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "FontScale",
+   "description": "Property for FontScale",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "FontSize",
+   "description": "Sets the default font size of text. The default is 16.",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "GetClickable",
+   "description": "Checks whether the floating view is clickable.",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "GetFloatingViewVisible",
+   "description": "Checks if the floating is present on the screen.",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "HasFlash",
+   "description": "whether the device has flash",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Health",
+   "description": "Returns the current health constant. Possible values are: cold, dead, good, overheat, over voltage, unknown, unspecified failure.",
+   "type": "text",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "InitialScale",
+   "description": "Sets the initial scale for active WebView. 0 means default. If initial scale is greater than 0, WebView starts with this value as initial scale.",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "LayerType",
+   "description": "Sets layer type",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Level",
+   "description": "Returns the battery level. Possible values are between 0 and 100.",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "LoadWithOverviewMode",
+   "description": "Sets whether the WebView loads pages in overview mode, that is, zooms out the content to fit on screen by width. This setting is taken into account when the content width is greater than the width of the WebView control.",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "LongClickable",
+   "description": "Returns whether text selection and context menu are enabled or not",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "NotificationVisibility",
+   "description": "Sets download notification visibility",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "OverScrollMode",
+   "description": "Sets over scroll mode",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Plugged",
+   "description": "Returns the battery plugged status. Possible values are: usb, ac, wireless or unknown.",
+   "type": "text",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "PromptForPermission",
+   "description": "Returns whether webview will prompt for permission and raise 'OnPermissionRequest' event or not",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "RotationAngle",
+   "description": "Sets rotation angle",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "ScrollBar",
+   "description": "Whether to display horizonatal and vertical scrollbars or not",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "ScrollBarStyle",
+   "description": "Sets scroll bar style",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "Scrollable",
+   "description": "Property for Scrollable",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "SetAudioPathSource",
+   "description": "Property for SetAudioPathSource",
+   "type": "text",
+   "category": "Behavior"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "SetClickable",
+   "description": "Adjusts whether the floating view is clickable",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "ShowUI",
+   "description": "whether User Interface shoud be showed while setting the volume.",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Status",
+   "description": "Returns the battery status. Possible values are: charging, full, discharging, not charging or unknown.",
+   "type": "text",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "SupportMultipleWindows",
+   "description": "Sets whether the WebView supports multiple windows",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "SuppressToast",
+   "description": "Property for SuppressToast",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "SuppressWarnings",
+   "description": "Property for SuppressWarnings",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Technology",
+   "description": "Returns the battery technology.",
+   "type": "text",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Temperature",
+   "description": "Returns the battery temperature in Celsius.",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "UseWideViewPort",
+   "description": "Sets whether the WebView should enable support for the 'viewport' HTML meta tag or should use a wide viewport.",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "UserAgent",
+   "description": "Get webview user agent",
+   "type": "text",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "UsesLocation",
+   "description": "Whether or not to give the application permission to use the Javascript geolocation API",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "VibrationEnabled",
+   "description": "Sets whether vibration feedback enabled on long click",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Visible",
+   "description": "Returns the visibility of current webview",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Voltage",
+   "description": "Returns the battery voltage level in millivolts.",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "VolumeAlarm",
+   "description": "notification volume in percent.",
+   "type": "number",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "VolumeMusic",
+   "description": "media volume in percent.",
+   "type": "number",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "VolumeRing",
+   "description": "ringtone volume in percent.",
+   "type": "number",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "WebViewString",
+   "description": "Set webview string",
+   "type": "text",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "ZoomEnabled",
+   "description": "Gets whether the WebView should support zooming using its on-screen zoom controls and gestures",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "ZoomPercent",
+   "description": "Sets the zoom of the page in percent. The default is 100",
+   "type": "number",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "getSdkVersion",
+   "description": "Property for getSdkVersion",
+   "type": "number",
+   "category": "Unspecified"
+  }
+ ],
+ "helpUrl": "",
+ "licenseName": "",
+ "type": "com.bima.bimaaix.BimaAix",
+ "androidMinSdk": "26",
+ "version": "1",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "BimaAix",
+ "helpString": "Simple BimaAix",
+ "properties": [
+  {
+   "defaultValue": "True",
+   "name": "AllowScreenshotsUser",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "True",
+   "name": "BlockAds",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "True",
+   "name": "DeepLinks",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "True",
+   "name": "FollowLinks",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "",
+   "name": "SetAudioPathSource",
+   "editorArgs": [],
+   "editorType": "asset"
+  },
+  {
+   "defaultValue": "True",
+   "name": "ShowUI",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "false",
+   "name": "SuppressToast",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "true",
+   "name": "SuppressWarnings",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "82",
+   "name": "VolumeAlarm",
+   "editorArgs": [],
+   "editorType": "non_negative_integer"
+  },
+  {
+   "defaultValue": "82",
+   "name": "VolumeMusic",
+   "editorArgs": [],
+   "editorType": "non_negative_integer"
+  },
+  {
+   "defaultValue": "82",
+   "name": "VolumeRing",
+   "editorArgs": [],
+   "editorType": "non_negative_integer"
+  }
+ ],
+ "events": [
+  {
+   "deprecated": "false",
+   "name": "AfterArchiveSaved",
+   "description": "Event raised after 'SaveArchive' method.If 'success' is true then returns file path else empty string.",
+   "params": [
+    {
+     "name": "success",
+     "type": "boolean"
+    },
+    {
+     "name": "filePath",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "AfterFileListAsync",
+   "description": "Event indicating that creating a list of files of a given directory has finished.",
+   "params": [{
+    "name": "fileList",
+    "type": "any"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "AfterJavaScriptEvaluated",
+   "description": "Event raised after evaluating Js and returns result.",
+   "params": [{
+    "name": "result",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "BatteryChanged",
+   "description": "Event indicating that battery changed.",
+   "params": [
+    {
+     "name": "status",
+     "type": "text"
+    },
+    {
+     "name": "plugged",
+     "type": "text"
+    },
+    {
+     "name": "level",
+     "type": "number"
+    },
+    {
+     "name": "health",
+     "type": "text"
+    },
+    {
+     "name": "temperature",
+     "type": "number"
+    },
+    {
+     "name": "voltage",
+     "type": "number"
+    },
+    {
+     "name": "technology",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "ClickView",
+   "description": "Executes after clicking on the floating component.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "Completed",
+   "description": "Event for Completed",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "CookiesRemoved",
+   "description": "Event raised after 'ClearCokies' method with result",
+   "params": [{
+    "name": "successful",
+    "type": "boolean"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Copied",
+   "description": "Event indicating that copying a file has finished.",
+   "params": [
+    {
+     "name": "successful",
+     "type": "boolean"
+    },
+    {
+     "name": "response",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "DownloadCompleted",
+   "description": "Event invoked when downloading gets completed",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "DownloadFailed",
+   "description": "Event invoked when downloading gets failed",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "DownloadProgressChanged",
+   "description": "Event invoked when downloading progress changes",
+   "params": [{
+    "name": "progress",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "DownloadStarted",
+   "description": "Event invoked when downloading starts",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Failed",
+   "description": "Event for Failed",
+   "params": [{
+    "name": "message",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "FileUploadNeeded",
+   "description": "Event raised when file uploading is needed",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "mimeType",
+     "type": "text"
+    },
+    {
+     "name": "isCaptureEnabled",
+     "type": "boolean"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "FindResultReceived",
+   "description": "Event raised after 'Find' method with int 'activeMatchOrdinal','numberOfMatches' and 'isDoneCounting'",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "activeMatchOrdinal",
+     "type": "number"
+    },
+    {
+     "name": "numberOfMatches",
+     "type": "number"
+    },
+    {
+     "name": "isDoneCounting",
+     "type": "boolean"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "GotCertificate",
+   "description": "Event raised after getting SSL certificate of current displayed url/website with boolean 'isSecure' and Strings 'issuedBy','issuedTo' and 'validTill'.If 'isSecure' is false and other values are empty then assume that website is not secure",
+   "params": [
+    {
+     "name": "isSecure",
+     "type": "boolean"
+    },
+    {
+     "name": "issuedBy",
+     "type": "text"
+    },
+    {
+     "name": "issuedTo",
+     "type": "text"
+    },
+    {
+     "name": "validTill",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "GotFileSize",
+   "description": "Event invoked after getting file size",
+   "params": [{
+    "name": "fileSize",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "GotPrintResult",
+   "description": "Event raised after getting previus print's result.",
+   "params": [
+    {
+     "name": "printId",
+     "type": "text"
+    },
+    {
+     "name": "isCompleted",
+     "type": "boolean"
+    },
+    {
+     "name": "isFailed",
+     "type": "boolean"
+    },
+    {
+     "name": "isBlocked",
+     "type": "boolean"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "LongClicked",
+   "description": "Event raised when something is long clicked in webview with item(image,string,empty,etc) and type(item type like 0,1,8,etc)",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "item",
+     "type": "text"
+    },
+    {
+     "name": "secondaryUrl",
+     "type": "text"
+    },
+    {
+     "name": "type",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "Moved",
+   "description": "Event indicating that moving a file has finished.",
+   "params": [
+    {
+     "name": "successful",
+     "type": "boolean"
+    },
+    {
+     "name": "response",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnCloseWindowRequest",
+   "description": "Event triggered when a window needs to be closed",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnConsoleMessage",
+   "description": "Event raised after getting console message.",
+   "params": [
+    {
+     "name": "message",
+     "type": "text"
+    },
+    {
+     "name": "lineNumber",
+     "type": "number"
+    },
+    {
+     "name": "sourceID",
+     "type": "number"
+    },
+    {
+     "name": "level",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnDownloadNeeded",
+   "description": "Event raised when downloading is needed.",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "url",
+     "type": "text"
+    },
+    {
+     "name": "contentDisposition",
+     "type": "text"
+    },
+    {
+     "name": "mimeType",
+     "type": "text"
+    },
+    {
+     "name": "size",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnErrorReceived",
+   "description": "Event raised when any error is received during loading url and returns message,error code and failing url",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "message",
+     "type": "text"
+    },
+    {
+     "name": "errorCode",
+     "type": "number"
+    },
+    {
+     "name": "url",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnFormResubmission",
+   "description": "Event raised when resubmission of form is needed",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnGeolocationRequested",
+   "description": "Event raised when page asks for location access. Developer must handle/show dialog from him/herself.",
+   "params": [{
+    "name": "origin",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnHideCustomView",
+   "description": "Event raised when current page exits from full screen mode",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "OnJsAlert",
+   "description": "Event raised when Js have to show an alert to user",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "url",
+     "type": "text"
+    },
+    {
+     "name": "message",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnJsConfirm",
+   "description": "Tells to display a confirm dialog to the user.",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "url",
+     "type": "text"
+    },
+    {
+     "name": "message",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnJsPrompt",
+   "description": "Event raised when JavaScript needs input from user",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "url",
+     "type": "text"
+    },
+    {
+     "name": "message",
+     "type": "text"
+    },
+    {
+     "name": "defaultValue",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnNewWindowRequest",
+   "description": "Event raised when new window is requested by webview with boolean 'isDialog' and 'isPopup'",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "isDialog",
+     "type": "boolean"
+    },
+    {
+     "name": "isPopup",
+     "type": "boolean"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnPermissionRequest",
+   "description": "Event raised when a website asks for specific permission(s) in list format.",
+   "params": [{
+    "name": "permissionsList",
+    "type": "list"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnProgressChanged",
+   "description": "Fires when Progress changed.",
+   "params": [{
+    "name": "newProgress",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnReceivedHttpAuthRequest",
+   "description": "Notifies that the WebView received an HTTP authentication request.",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "host",
+     "type": "text"
+    },
+    {
+     "name": "realm",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnReceivedSslError",
+   "description": "Event for OnReceivedSslError",
+   "params": [{
+    "name": "errorCode",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnResume",
+   "description": "Event raised when app gets resumed and gives the url which started this activity/screen if there is any else empty string",
+   "params": [{
+    "name": "url",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnScrollChanged",
+   "description": "Event raised when webview gets scrolled",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "scrollX",
+     "type": "number"
+    },
+    {
+     "name": "scrollY",
+     "type": "number"
+    },
+    {
+     "name": "oldScrollX",
+     "type": "number"
+    },
+    {
+     "name": "oldScrollY",
+     "type": "number"
+    },
+    {
+     "name": "canGoLeft",
+     "type": "boolean"
+    },
+    {
+     "name": "canGoRight",
+     "type": "boolean"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "OnShowCustomView",
+   "description": "Event raised when current page enters in full screen mode",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "PageLoaded",
+   "description": "Event raised when page loading has finished.",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "PageStarted",
+   "description": "Event indicating that page loading has started in web view.",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "url",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "PermissionDenied",
+   "description": "Permission has been denied.",
+   "params": [{
+    "name": "permissionName",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "PositionMoved",
+   "description": "View moved from position",
+   "params": [
+    {
+     "name": "x",
+     "type": "number"
+    },
+    {
+     "name": "y",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "Progress",
+   "description": "Event for Progress",
+   "params": [{
+    "name": "percentage",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Success",
+   "description": "Flashlight has been successfully turned on/off.",
+   "params": [{
+    "name": "isFlashOn2",
+    "type": "boolean"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Swiped",
+   "description": "Event raised when webview is swiped",
+   "params": [
+    {
+     "name": "id",
+     "type": "number"
+    },
+    {
+     "name": "direction",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "WebViewStringChanged",
+   "description": "When the JavaScript calls AppInventor.setWebViewString this event is run.",
+   "params": [{
+    "name": "value",
+    "type": "text"
+   }]
+  }
+ ]
+}
