@@ -40,7 +40,7 @@ public class Extension extends AndroidNonvisibleComponent implements Component{
     public void ExampleProperty(boolean property) {
         return null;
     }
-    public boolean property {
+    public boolean property(){
         return true;
     }
 }
