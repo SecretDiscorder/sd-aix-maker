@@ -24,21 +24,17 @@ public class Extension extends AndroidNonvisibleComponent implements Component{
         super(container.$form());
         this.activity = container.$context();
         this.container = container;
-        context = activity;
     }
 	@SimpleFunction
     public void ExampleFunction() {
-        return null;
     }
 	@SimpleEvent
     public void ExampleEvent() {
-        return null;
     }
     
     @SimpleProperty( category = PropertyCategory.BEHAVIOR)
     @DesignerProperty(defaultValue = "true", editorType = "boolean")
     public void ExampleProperty(boolean property) {
-        return null;
     }
     public boolean property(){
         return true;
