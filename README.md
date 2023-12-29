@@ -1,19 +1,32 @@
+# sd-aix-maker
+
+[![Stars](https://img.shields.io/github/stars/SecretDiscorder/sd-aix-maker.svg)](https://github.com/SecretDiscorder/sd-aix-maker/stargazers)
+[![Watchers](https://img.shields.io/github/watchers/SecretDiscorder/sd-aix-maker.svg)](https://github.com/SecretDiscorder/sd-aix-maker/watchers)
+[![License](https://img.shields.io/github/license/SecretDiscorder/sd-aix-maker.svg)](https://github.com/SecretDiscorder/sd-aix-maker/blob/main/LICENSE)
+
+## Remakeable Java Appinventor Extensions Creator
 Sure, let me summarize the provided information:
 
-**Overview:**
+An App Inventor Remakeable extension creator using Ant.
+
+## Overview
 
 - `sd-aix-maker` allows you to create extensions with Java source code, similar to Appinventor-Source, but without Kotlin support, enable java8 --source 8 , no-desugarding libraries, support Lambda expression
 
 - It supports platforms such as Android (Termux or userland), Windows, Linux, and potentially macOS.
 
 
-![https://youtu.be/tJo38el1PcE?si=9pAbpQdQZ836aOQx](https://youtu.be/tJo38el1PcE?si=9pAbpQdQZ836aOQx)
+## Installation
+
+https://youtu.be/tJo38el1PcE?si=9pAbpQdQZ836aOQx
 
 **Requirements:**
 
 - Ensure you have Git, Java JDK 8-11, and Apache Ant installed.
 
 - Clone the repository: `git clone https://github.com/SecretDiscorder/sd-aix-maker`
+
+## Usage
 
 **Structure:**
 
@@ -36,6 +49,8 @@ Sure, let me summarize the provided information:
 
 - Modify `components/build.xml` accordingly.
 
+## Build and Development
+
 
 **GitHub Link:**
 
@@ -53,7 +68,18 @@ Sure, let me summarize the provided information:
 - Defines permissions in `@UsesPermissions`
 
 
-I Can coding but in bold quote "UNDERSTAND". 
+
+## Contributing
+
+We welcome contributions from the community! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+I Can coding but in bold quote "**UNDERSTAND**". 
 
 Thanks
 
@@ -69,7 +95,7 @@ Links github
 
 **Can i rename default git clone folder**
 
-You don't rename default folder sd-aix-maker
+You don't rename default foldersd-aix-maker
 
 You Can see overflow git at https://github.com/SecretDiscorder/sd-aix-maker/actions/runs/7353248508/job/20018981469
 
@@ -82,7 +108,7 @@ If you add External library put to `lib/{folder your libraries}/{your libraries}
 
 Then go to `components/build.xml`
 
-![Screenshot_20231229-123625|219x500](upload://7Ik915SQKy5uBLX94kVi2832PWJ.jpeg)
+![Screenshot_20231229-123625](https://github.com/SecretDiscorder/sd-aix-maker/assets/139457966/caec0523-d7f5-4420-9359-a4eae912e286)
 
 This
 
@@ -140,6 +166,4 @@ Example:
 >               return true;
 >          }
 >     }
-
-
 This should give you a cleaner and more organized narrative of the provided information. If you have specific questions or need further clarification, feel free to ask!
