@@ -87,7 +87,6 @@ Then go to `components/build.xml`
 This
 
 >`<copy toFile="${public.deps.dir}/{your libraries name}.jar" `
-
 >`file="${lib.dir}/{your libraries folder}/{your libraries name}.jar" />`
 
 `@UsesLibraries(libraries = "runtime-sources.jar, runtime.jar, yourlibraries.jar") // don't remove runtime or source.jar
