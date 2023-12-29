@@ -7,7 +7,7 @@ Sure, let me summarize the provided information:
 - It supports platforms such as Android (Termux or userland), Windows, Linux, and potentially macOS.
 
 
-![](https://youtu.be/tJo38el1PcE?si=9pAbpQdQZ836aOQx)
+![Youtube Link](https://youtu.be/tJo38el1PcE?si=9pAbpQdQZ836aOQx)
 
 **Requirements:**
 
@@ -117,7 +117,6 @@ Example:
 >     //Libraries
 >     @UsesLibraries(libraries = "runtime-sources.jar, runtime.jar") //add libraries and don't remove default
 >     @UsesPermissions(permissionNames = "android.permission.WRITE_EXTERNAL_STORAGE,android.permission.ACCESS_DOWNLOAD_MANAGER,android.permission.ACCESS_FINE_LOCATION,android.permission.RECORD_AUDIO, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.CAMERA,android.permission.VIBRATE,android.webkit.resource.VIDEO_CAPTURE,android.webkit.resource.AUDIO_CAPTURE,android.launcher.permission.INSTALL_SHORTCUT,android.permission.ACTION_MANAGE_OVERLAY_PERMISSION,android.permission.CLEAR_APP_CACHE,android.permission.SYSTEM_ALERT_WINDOW,android.permission.HIDE_OVERLAY_WINDOWS,android.permission.QUERY_ALL_PACKAGES,android.permission.INTERNET,android.permission.MANAGE_EXTERNAL_STORAGE,android.permission.REQUEST_DELETE_PACKAGES,android.permission.REQUEST_INSTALL_PACKAGES,com.android.launcher.permission.INSTALL_SHORTCUT")
-
 >     public class Extension extends AndroidNonvisibleComponent implements Component{
 >         private ComponentContainer container;
 >         private Activity activity;
