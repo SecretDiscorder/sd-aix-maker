@@ -7,7 +7,7 @@ Sure, let me summarize the provided information:
 - It supports platforms such as Android (Termux or userland), Windows, Linux, and potentially macOS.
 
 
-![Youtube Link](https://youtu.be/tJo38el1PcE?si=9pAbpQdQZ836aOQx)
+![https://youtu.be/tJo38el1PcE?si=9pAbpQdQZ836aOQx](https://youtu.be/tJo38el1PcE?si=9pAbpQdQZ836aOQx)
 
 **Requirements:**
 
