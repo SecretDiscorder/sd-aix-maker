@@ -11,7 +11,7 @@ An App Inventor Remakeable extension creator using Ant.
 
 ## Overview
 
-- `sd-aix-maker` allows you to create extensions with Java source code, similar to Appinventor-Source, but without Kotlin support, enable java8 --source 8 , no-desugarding libraries, support Lambda expression
+- `sd-aix-maker` allows you to create extensions with Java source code, similar to Appinventor-Sources and Rush-CLI, but without Kotlin support, enable java8 --source 8 , no-desugarding libraries, support Lambda expression
 
 - It supports platforms such as Android (Termux or userland), Windows, Linux, and potentially macOS.
 
