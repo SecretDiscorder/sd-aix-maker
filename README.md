@@ -95,7 +95,7 @@ Links github
 
 **Can i rename default git clone folder**
 
-You don't rename default foldersd-aix-maker
+You don't rename default folder sd-aix-maker
 
 You Can see overflow git at https://github.com/SecretDiscorder/sd-aix-maker/actions/runs/7353248508/job/20018981469
 
