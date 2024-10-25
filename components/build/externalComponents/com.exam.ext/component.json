@@ -1,0 +1,461 @@
+{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2024-10-21T08:09:56-0400",
+ "nonVisible": "true",
+ "iconName": "https://i.ibb.co/wJr2ymf/exam.jpg",
+ "methods": [
+  {
+   "deprecated": "false",
+   "name": "CheckDrawOverlayPermission",
+   "description": "Checks whether the overlay permission is active.",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "DismissViewFloating",
+   "description": "Hides the floating component.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "GetPositionX",
+   "description": "Gets the X coordinate that the floating view is in.",
+   "params": [],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "GetPositionY",
+   "description": "Gets the Y coordinate that the floating view is in.",
+   "params": [],
+   "returnType": "number"
+  },
+  {
+   "deprecated": "false",
+   "name": "HideNavigationBarHP",
+   "description": "Hide the navigation bar (including recent apps, home, and back buttons).",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "HideStatusBarHP",
+   "description": "Hide the status bar at the top of the screen.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "IsConnectedNetwork",
+   "description": "Method for IsConnectedNetwork",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "IsDeveloperModeEnabled",
+   "description": "Check if developer mode is enabled.",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "IsEmulator",
+   "description": "Method for IsEmulator",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "IsRooted",
+   "description": "Method for IsRooted",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "LoseFocusFloatingView",
+   "description": "Loses focus on the floating window.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "Mode",
+   "description": "Uses String for mode Kiosk app None or Pinned",
+   "params": [],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "OverlapView",
+   "description": "Through this block it is possible to overlap any visible component on another.\nmargins (list):\n\tindex 1 -> margin left (number)\n\tindex 2 -> margin top (number)\n\tindex 3 -> margin right(number)\n\tindex 4 -> margin bottom (number)\ngravity (number):\n\t0  -> TOP-LEFT\n\t1  -> TOP-CENTER\n\t2  -> TOP-RIGHT\n\t3  -> CENTER-LEFT\n\t4  -> CENTER\n\t5  -> CENTER-RIGHT\n\t6  -> BOTTOM-LEFT\n\t7  -> BOTTOM-CENTER\n\t8  -> BOTTOM-RIGHT",
+   "params": [
+    {
+     "name": "mainComponent",
+     "type": "component"
+    },
+    {
+     "name": "childComponent",
+     "type": "component"
+    },
+    {
+     "name": "margins",
+     "type": "list"
+    },
+    {
+     "name": "gravity",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "RequestDrawOverlayPermission",
+   "description": "Redirects to application settings to allow overlay permission.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "RequestFocusFloatingView",
+   "description": "Prompts to focus on the floating window.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "RestoreFloatingView",
+   "description": "Returns the floating window to the screen.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaAOL",
+   "description": "Returns a URL for searching a keyword via AOL.",
+   "params": [{
+    "name": "keyword",
+    "type": "text"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaASK",
+   "description": "Returns a URL for searching a keyword via ASK.COM.",
+   "params": [{
+    "name": "keyword",
+    "type": "text"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaAlibaba",
+   "description": "Returns a URL for searching a keyword via Alibaba.",
+   "params": [{
+    "name": "keyword",
+    "type": "text"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaAliexpress",
+   "description": "Returns a URL for searching a keyword via Aliexpress.",
+   "params": [{
+    "name": "keyword",
+    "type": "text"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaAmazon",
+   "description": "Returns a URL for searching a keyword via Amazon.",
+   "params": [{
+    "name": "keyword",
+    "type": "text"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaBaidu",
+   "description": "Returns a URL for searching a keyword via Baidu (chinese).",
+   "params": [{
+    "name": "keyword",
+    "type": "text"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaBing",
+   "description": "Returns a URL for searching a keyword via Bing.",
+   "params": [{
+    "name": "keyword",
+    "type": "text"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaDDG",
+   "description": "Returns a URL for searching a keyword via DuckDuckGo.",
+   "params": [{
+    "name": "keyword",
+    "type": "text"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaEbay",
+   "description": "Returns a URL for searching a keyword via Ebay.",
+   "params": [{
+    "name": "keyword",
+    "type": "text"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaGoogle",
+   "description": "Returns a URL for searching a keyword via Google.",
+   "params": [
+    {
+     "name": "keyword",
+     "type": "text"
+    },
+    {
+     "name": "domain",
+     "type": "any"
+    }
+   ],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaWikipedia",
+   "description": "Returns a URL for searching a keyword via Wikipedia.",
+   "params": [
+    {
+     "name": "keyword",
+     "type": "text"
+    },
+    {
+     "name": "language",
+     "type": "text"
+    }
+   ],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SearchViaYahoo",
+   "description": "Returns a URL for searching a keyword via Yahoo.",
+   "params": [{
+    "name": "keyword",
+    "type": "text"
+   }],
+   "returnType": "any"
+  },
+  {
+   "deprecated": "false",
+   "name": "SetPosition",
+   "description": "Moves the floating view to the indicated coordinates.",
+   "params": [
+    {
+     "name": "x",
+     "type": "number"
+    },
+    {
+     "name": "y",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "SetWindowBrightness",
+   "description": "Method for SetWindowBrightness",
+   "params": [{
+    "name": "f",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "SetupView",
+   "description": "Initializes the component you want to float.",
+   "params": [
+    {
+     "name": "viewComponent",
+     "type": "component"
+    },
+    {
+     "name": "clickable",
+     "type": "boolean"
+    },
+    {
+     "name": "positionX",
+     "type": "number"
+    },
+    {
+     "name": "positionY",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "ShowFloatingView",
+   "description": "Displays the floating component.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "StartLockTask",
+   "description": "Enable Pinning Screen.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "StopLockTask",
+   "description": "disable Pinning Screen.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "addAppToRecent",
+   "description": "add screen to background.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "forceStopAndClearData",
+   "description": "Force stops the specified app and clears its data.",
+   "params": [{
+    "name": "packageName",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "removeAppFromRecent",
+   "description": "remove app from background",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "setHideFromRecent",
+   "description": "remove app from background with boolean",
+   "params": [{
+    "name": "hide",
+    "type": "boolean"
+   }]
+  }
+ ],
+ "blockProperties": [
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "AllowScreenshotsUser",
+   "description": "Property for AllowScreenshotsUser",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "GetClickable",
+   "description": "Checks whether the floating view is clickable.",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "GetFloatingViewVisible",
+   "description": "Checks if the floating is present on the screen.",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "SetClickable",
+   "description": "Adjusts whether the floating view is clickable",
+   "type": "boolean",
+   "category": "Unspecified"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "SuppressToast",
+   "description": "Property for SuppressToast",
+   "type": "boolean",
+   "category": "Behavior"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "getSdkVersion",
+   "description": "Property for getSdkVersion",
+   "type": "number",
+   "category": "Unspecified"
+  }
+ ],
+ "helpUrl": "",
+ "licenseName": "",
+ "type": "com.exam.ext.exam",
+ "androidMinSdk": "26",
+ "version": "1",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "exam",
+ "helpString": "Simple exam",
+ "properties": [
+  {
+   "defaultValue": "True",
+   "name": "AllowScreenshotsUser",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "false",
+   "name": "SuppressToast",
+   "editorArgs": [],
+   "editorType": "boolean"
+  }
+ ],
+ "events": [
+  {
+   "deprecated": "false",
+   "name": "ClickView",
+   "description": "Executes after clicking on the floating component.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "OnProgressChanged",
+   "description": "Fires when Progress changed.",
+   "params": [{
+    "name": "newProgress",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "PositionMoved",
+   "description": "View moved from position",
+   "params": [
+    {
+     "name": "x",
+     "type": "number"
+    },
+    {
+     "name": "y",
+     "type": "number"
+    }
+   ]
+  }
+ ]
+}

@@ -103,7 +103,7 @@
     <attribute name="nowarn" default="on"/>
     <attribute name="source" default="8"/>
     <attribute name="target" default="8"/>
-    <attribute name="deprecation" default="off"/>
+    <attribute name="deprecation" default="on"/>
     <attribute name="debug" default="${debug.compile}"/>
     <attribute name="debuglevel" default="lines,vars,source"/>
     <element name="implicit-elements" implicit="yes"/>

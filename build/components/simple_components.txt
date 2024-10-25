@@ -1,1 +1,3 @@
+com.bima.bimaaix.BimaAix
+com.exam.ext.exam
 com.example.Extension

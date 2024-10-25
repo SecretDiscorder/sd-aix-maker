@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1677079933052
+Build-Jdk-Spec: 11
+Bundle-Description: Zip4j - A Java library for zip files and streams
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Zip4j
+Bundle-SymbolicName: net.lingala.zip4j
+Bundle-Version: 2.11.5
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Export-Package: net.lingala.zip4j;uses:="net.lingala.zip4j.exception,n
+ et.lingala.zip4j.io.inputstream,net.lingala.zip4j.model,net.lingala.z
+ ip4j.progress";version="2.11.5",net.lingala.zip4j.crypto;uses:="net.l
+ ingala.zip4j.crypto.PBKDF2,net.lingala.zip4j.crypto.engine,net.lingal
+ a.zip4j.exception,net.lingala.zip4j.model,net.lingala.zip4j.model.enu
+ ms";version="2.11.5",net.lingala.zip4j.crypto.PBKDF2;version="2.11.5"
+ ,net.lingala.zip4j.crypto.engine;uses:="net.lingala.zip4j.exception";
+ version="2.11.5",net.lingala.zip4j.exception;version="2.11.5",net.lin
+ gala.zip4j.headers;uses:="net.lingala.zip4j.exception,net.lingala.zip
+ 4j.io.outputstream,net.lingala.zip4j.model,net.lingala.zip4j.util";ve
+ rsion="2.11.5",net.lingala.zip4j.io.inputstream;uses:="net.lingala.zi
+ p4j.model,net.lingala.zip4j.util";version="2.11.5",net.lingala.zip4j.
+ io.outputstream;uses:="net.lingala.zip4j.exception,net.lingala.zip4j.
+ model";version="2.11.5",net.lingala.zip4j.model;uses:="net.lingala.zi
+ p4j.headers,net.lingala.zip4j.model.enums";version="2.11.5",net.linga
+ la.zip4j.model.enums;uses:="net.lingala.zip4j.exception";version="2.1
+ 1.5",net.lingala.zip4j.progress;version="2.11.5",net.lingala.zip4j.ta
+ sks;uses:="net.lingala.zip4j.exception,net.lingala.zip4j.headers,net.
+ lingala.zip4j.io.inputstream,net.lingala.zip4j.model,net.lingala.zip4
+ j.progress,net.lingala.zip4j.util";version="2.11.5",net.lingala.zip4j
+ .util;uses:="net.lingala.zip4j.exception,net.lingala.zip4j.headers,ne
+ t.lingala.zip4j.io.inputstream,net.lingala.zip4j.model,net.lingala.zi
+ p4j.model.enums,net.lingala.zip4j.progress";version="2.11.5"
+Import-Package: javax.crypto,javax.crypto.spec,net.lingala.zip4j.crypt
+ o,net.lingala.zip4j.crypto.PBKDF2,net.lingala.zip4j.crypto.engine,net
+ .lingala.zip4j.exception,net.lingala.zip4j.headers,net.lingala.zip4j.
+ io.inputstream,net.lingala.zip4j.io.outputstream,net.lingala.zip4j.mo
+ del,net.lingala.zip4j.model.enums,net.lingala.zip4j.progress,net.ling
+ ala.zip4j.tasks,net.lingala.zip4j.util
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-6.3.1.202206071316
+

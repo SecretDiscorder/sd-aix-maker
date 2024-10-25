@@ -156,9 +156,7 @@
     <copy toFile="${public.deps.dir}/google-http-client-android2-beta.jar" file="${lib.dir}/oauth/google-http-client-android2-1.10.3-beta.jar" />
     <copy toFile="${public.deps.dir}/google-http-client-android3-beta.jar" file="${lib.dir}/oauth/google-http-client-android3-1.10.3-beta.jar" />
     <copy toFile="${public.deps.dir}/google-http-client-jackson2.jar" file="${lib.dir}/oauth/google-http-client-jackson2-1.33.0.jar" />
-    <copy toFile="${public.deps.dir}/runtime.jar" file="${lib.dir}/rush/runtime.jar" />
-    <copy toFile="${public.deps.dir}/runtime-sources.jar" file="${lib.dir}/rush/runtime-sources.jar" />
-    <copy toFile="${public.deps.dir}/zip4j.jar" file="${lib.dir}/rush/zip4j.jar" />
+ 
     <copy toFile="${public.deps.dir}/google-oauth-client.jar" file="${lib.dir}/oauth/google-oauth-client-1.30.4.jar" />
     <copy toFile="${public.deps.dir}/google-oauth-client-java6.jar" file="${lib.dir}/oauth/google-oauth-client-java6-1.30.4.jar" />
     <copy toFile="${public.deps.dir}/google-oauth-client-jetty.jar" file="${lib.dir}/oauth/google-oauth-client-jetty-1.30.4.jar" />
@@ -183,12 +181,8 @@
     </copy>
     <copy toFile="${public.deps.dir}/http-legacy.jar" file="${lib.dir}/android/legacy/org.apache.http.legacy.jar" />
     <!-- END Android Support Libraries -->
-    <copy toFile="${public.deps.dir}/android.jar" file="${android.lib}" />
-    <copy toFile="${public.deps.dir}/CommonVersion.jar" file="${build.dir}/common/CommonVersion.jar" />
-    <copy toFile="${public.deps.dir}/OneSignal.jar" file="${lib.dir}/OneSignal/OneSignal.jar" />
-    <copy toFile="${public.deps.dir}/okhttp.jar" file="${lib.dir}/okhttp.jar" />
-<copy toFile="${public.deps.dir}/okio.jar" file="${lib.dir}/okio.jar" />                                       
-    <!-- Add extension libraries here --> 
+    
+   <!-- Add extension libraries here --> 
     <!-- Example: <copy toFile="${public.deps.dir}/my-dependency.jar" file="${lib.dir}/my-dependency/my-dependency-1.0.0.jar" /> -->
     <!-- Remember to include my-dependency.jar in the @UsesLibraries annotation in the extension -->
   </target>
@@ -490,18 +484,6 @@
 
   <target name="dexExtension" depends="">
     <basename property="extensionType" file="${extension}" suffix=".jar"/>
-    <java jar="${lib.dir}/android/tools/dx.jar"
-          fork="true"
-          failonerror="true">
-      <arg value="--release"/>
-      <arg value="--min-api"/>      
-      <arg value="26"/>
-      <arg value="--no-desugaring"/>      
-      <arg value="--output"/>
-      <arg value="${ExternalComponent.dir}/${extensionType}/classes.jar"/>
-      <arg value="${ExternalComponent-class.dir}/${extensionType}.jar"/>
-    </java>
-
     <echo>Dexing extension: ${extensionType}</echo>
   </target>
 

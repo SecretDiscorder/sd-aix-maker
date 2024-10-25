@@ -1,0 +1,8 @@
+com.example.Extension -> com.example.Extension:
+    com.google.appinventor.components.runtime.ComponentContainer container -> a
+    android.app.Activity activity -> a
+    void <init>(com.google.appinventor.components.runtime.ComponentContainer) -> <init>
+    void ExampleFunction() -> ExampleFunction
+    void ExampleEvent() -> ExampleEvent
+    void ExampleProperty(boolean) -> ExampleProperty
+    boolean property() -> property
